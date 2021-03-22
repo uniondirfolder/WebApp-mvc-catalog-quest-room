@@ -13,4 +13,10 @@ namespace WebApp_mvc_catalog_quest_room.Models
         Four,
         Five
     }
+
+    public enum SizeGroup
+    {
+        Small,
+        Medium
+    }
 }
