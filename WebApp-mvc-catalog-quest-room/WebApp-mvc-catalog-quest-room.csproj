@@ -125,7 +125,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Enum.cs" />
-    <Compile Include="Models\Group.cs" />
+    <Compile Include="Models\Gallery.cs" />
+    <Compile Include="Models\Team.cs" />
     <Compile Include="Models\ImageCQR.cs" />
     <Compile Include="Models\Participant.cs" />
     <Compile Include="Models\Room.cs" />

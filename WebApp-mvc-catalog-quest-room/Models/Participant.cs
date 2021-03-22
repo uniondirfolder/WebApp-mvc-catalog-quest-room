@@ -13,5 +13,17 @@ namespace WebApp_mvc_catalog_quest_room.Models
         public string Address { get; set; }
         public string Phone { get; set; }
         public string Email { get; set; }
+        public bool? Sex { get; set; }
+
+        public DateTime RegisterDate { get; set; }
+
+        public int? ImageId { get; set; }
+        public ImageCQR Image { get; set; }
+
+        public virtual ICollection<Team> Groups { get; set; }
+        public Participant()
+        {
+            Groups = new List<Team>();
+        }
     }
 }
