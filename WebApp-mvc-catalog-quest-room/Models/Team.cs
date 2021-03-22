@@ -13,7 +13,7 @@ namespace WebApp_mvc_catalog_quest_room.Models
 
         public int? ImageId { get; set; }
         public ImageCQR Image { get; set; }
-
+        public SizeGroup SizeGroup { get; set;}
         public virtual ICollection<Participant> Participants { get; set; }
 
         public Team()
