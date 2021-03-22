@@ -12,7 +12,7 @@ namespace WebApp_mvc_catalog_quest_room.Models
         public Level Difficulty { get; set; }
         public int MinAge { get; set; }
         public int MaxAge { get; set; }
-        public Level Rating { get; set; }
+        public int Rating { get; set; }//%
 
         public int TransitTime { get; set; }
 
