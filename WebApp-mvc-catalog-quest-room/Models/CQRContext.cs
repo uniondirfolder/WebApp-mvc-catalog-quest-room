@@ -8,12 +8,17 @@ namespace WebApp_mvc_catalog_quest_room.Models
 {
     public class CQRContext:DbContext
     {
-        public CQRContext():base("CQRContext")
+        public CQRContext():base("name=CQRContext")
         {
-
+            Database.SetInitializer(new CreateDatabaseIfNotExists<CQRContext>());
         }
-        private DbSet<Room> _rooms;
-        public DbSet<Room> Rooms { get => _rooms; set => _rooms = value; }
+
+        public DbSet<Room> Rooms { get; set; }
+        public DbSet<Gallery> Galleries { get; set; }
+        public DbSet<ImageCQR> imageCQRs { get; set; }
+        public DbSet<Participant> Participants { get; set; }
+        public DbSet<Team> Teams { get; set; }
+  
     }
 
     
