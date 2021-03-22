@@ -7,6 +7,7 @@ namespace WebApp_mvc_catalog_quest_room.Models
 {
     public class Room
     {
+        public int Id { get; set; }
         public string Description { get; set; }
         public Level Fear { get; set; }
         public Level Difficulty { get; set; }
