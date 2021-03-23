@@ -7,13 +7,13 @@ namespace WebApp_mvc_catalog_quest_room.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class M3 : IMigrationMetadata
+    public sealed partial class A1 : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(M3));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(A1));
         
         string IMigrationMetadata.Id
         {
-            get { return "202103222243349_M3"; }
+            get { return "202103230046052_A1"; }
         }
         
         string IMigrationMetadata.Source

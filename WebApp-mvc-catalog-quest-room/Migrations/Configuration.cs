@@ -9,7 +9,7 @@ namespace WebApp_mvc_catalog_quest_room.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = true;
+            AutomaticMigrationsEnabled = false;
         }
 
         protected override void Seed(WebApp_mvc_catalog_quest_room.Models.CQRContext context)

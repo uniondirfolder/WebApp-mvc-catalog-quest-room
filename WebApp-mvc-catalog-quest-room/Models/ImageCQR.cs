@@ -8,6 +8,7 @@ namespace WebApp_mvc_catalog_quest_room.Models
 {
     public class ImageCQR
     {
+        [Key]
         public int Id { get; set; }
         [MaxLength(250)]
         public string ExternalLink { get; set; }

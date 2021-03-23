@@ -12,7 +12,10 @@ namespace WebApp_mvc_catalog_quest_room.Models
         {
             Database.SetInitializer(new CreateDatabaseIfNotExists<CQRContext>());
         }
-
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+        }
         public DbSet<Room> Rooms { get; set; }
         public DbSet<Gallery> Galleries { get; set; }
         public DbSet<ImageCQR> imageCQRs { get; set; }

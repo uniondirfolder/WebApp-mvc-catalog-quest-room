@@ -133,17 +133,9 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\202103222110217_InitMigration.cs" />
-    <Compile Include="Migrations\202103222110217_InitMigration.Designer.cs">
-      <DependentUpon>202103222110217_InitMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103222208572_InitDb.cs" />
-    <Compile Include="Migrations\202103222208572_InitDb.Designer.cs">
-      <DependentUpon>202103222208572_InitDb.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\202103222243349_M3.cs" />
-    <Compile Include="Migrations\202103222243349_M3.Designer.cs">
-      <DependentUpon>202103222243349_M3.cs</DependentUpon>
+    <Compile Include="Migrations\202103230046052_A1.cs" />
+    <Compile Include="Migrations\202103230046052_A1.Designer.cs">
+      <DependentUpon>202103230046052_A1.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CQRContext.cs" />
@@ -299,6 +291,7 @@
     <Content Include="Views\Rooms\Details.cshtml" />
     <Content Include="Views\Rooms\Edit.cshtml" />
     <Content Include="Views\Rooms\Index.cshtml" />
+    <Content Include="Views\Rooms\ViewGuestRooms.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Browsers\" />
@@ -320,14 +313,8 @@
     <Service Include="{4A0DDDB5-7A95-4FBF-97CC-616D07737A77}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\202103222110217_InitMigration.resx">
-      <DependentUpon>202103222110217_InitMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103222208572_InitDb.resx">
-      <DependentUpon>202103222208572_InitDb.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\202103222243349_M3.resx">
-      <DependentUpon>202103222243349_M3.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\202103230046052_A1.resx">
+      <DependentUpon>202103230046052_A1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
