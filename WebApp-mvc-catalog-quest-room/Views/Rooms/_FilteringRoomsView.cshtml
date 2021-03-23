@@ -1,0 +1,11 @@
+﻿
+<div class="container-fluid">
+    @using (Html.BeginForm())
+    {
+        @Html.DropDownList("countires", new SelectList(new string[] { "One", "Two", "Three", "Four", "Five" }), "Lavel fair")
+        @Html.DropDownList("countires", new SelectList(new string[] { "One", "Two", "Three", "Four", "Five" }), "Size group")
+        @Html.DropDownList("countires", new SelectList(new string[] { "One", "Two", "Three", "Four", "Five" }), "Dificulty")
+
+        <input type="submit" value="Filtering" />
+    }
+</div>

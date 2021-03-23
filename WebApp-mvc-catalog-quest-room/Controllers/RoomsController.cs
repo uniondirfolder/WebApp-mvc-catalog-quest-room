@@ -21,6 +21,11 @@ namespace WebApp_mvc_catalog_quest_room.Controllers
             return View(await db.Rooms.ToListAsync());
         }
 
+        public ActionResult GetRoomsByFilters(RoomFilter roomFilter) 
+        {
+            return PartialView();
+        }
+
         // GET: Rooms/Details/5
         public async Task<ActionResult> Details(int? id)
         {
@@ -116,6 +121,8 @@ namespace WebApp_mvc_catalog_quest_room.Controllers
             return RedirectToAction("Index");
         }
 
+
+
         protected override void Dispose(bool disposing)
         {
             if (disposing)
@@ -124,5 +131,6 @@ namespace WebApp_mvc_catalog_quest_room.Controllers
             }
             base.Dispose(disposing);
         }
+
     }
 }
